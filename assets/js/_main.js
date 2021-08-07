@@ -134,3 +134,11 @@ $(document).ready(function() {
     }
   });
 });
+
+function copyToClipboard(button,input) {
+  navigator.clipboard.writeText(input).then(function(){
+      var previousText = button.innerHTML
+      button.innerHTML = "Copied!"
+      setTimeout(function(){ button.innerHTML = previousText; }, 700);
+  }, function(err){});
+}

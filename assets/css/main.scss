@@ -6,4 +6,6 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import "academicons-1.9.1/css/academicons.min.css"
+@import "academicons-1.9.1/css/academicons.min.css";
+@import "timeline";
+//@import "bootstrap-5.0.2-dist/bootstrap.min.css"

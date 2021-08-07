@@ -102,19 +102,19 @@ analytics:
 # Site Author
 author:
   name             : "Jianwei Sun"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo-square.jpg"
   bio              : "Ph.D. Candidate<br>University of California, Los Angeles"
   location         : "Los Angeles, USA"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:sunjianw1@ucla.edu"
     - label: "Google Scholar"
       icon: "ai ai-fw ai-google-scholar"
       url: "https://scholar.google.com/citations?user=KMHyMzQAAAAJ&hl=en"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jianwei-sun/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:sunjianw1@ucla.edu"
     # - label: "ORCID"
     #   icon: "ai ai-fw ai-orcid"
     #   url: "https://orcid.org/0000-0002-6298-2930"

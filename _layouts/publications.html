@@ -1,0 +1,43 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+
+<div class="entries-{{ entries_layout }}">
+  {% assign entries = site[page.collection] %}
+
+  {% if page.sort_by %}
+    {% assign entries = entries | sort: page.sort_by %}
+  {% endif %}
+
+  {% if page.sort_order == 'reverse' %}
+    {% assign entries = entries | reverse %}
+  {% endif %}
+
+  <ul>
+    {%- for post in entries -%}
+      {%- unless post.hidden -%}
+        <li>
+            <b>{{post.title}}</b><br>
+            {{post.authors | replace: "Jianwei Sun", "<b>Jianwei Sun</b>"}}<br>
+            <i>{{post.venue}}</i><br>
+            {% if post.notice %}
+              {{post.notice}}<br>
+            {% endif %}
+            {% if post.link %}
+              <button type="button" onclick="window.open('{{ post.link }}','_blank')" class="btn">Link</button>
+            {% endif %}
+            {% if post.pdf %}
+              <button type="button" onclick="window.open('{{ post.pdf }}','_blank')" class="btn">PDF</button>
+            {% endif %}
+            {% if post.citation %}
+              <button type="button" onclick="copyToClipboard(this, '{{ post.citation | escape }}')" class="btn cpy_btn">Copy Citation</button>
+            {% endif %}
+        </li>
+      {%- endunless -%}
+    {%- endfor -%}
+  </ul>
+</div> 
