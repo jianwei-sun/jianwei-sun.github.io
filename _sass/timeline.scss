@@ -46,11 +46,12 @@ a {
 
 #timeline {
   position: relative;
-  display: table; //*For Firefox
+  width: auto;
+  display: block;
   height: 100%;
   margin: {
-    left: auto;
-    right: auto;
+    left: 2rem;
+    // right: auto;
     top: 2rem;
   }
   div {
@@ -82,12 +83,19 @@ a {
   section.year {
   position: relative;
   &:first-child section{
-    margin-top: -1.3em;
+    margin-top: -2.7em;
     padding-bottom: 0px;
+    @media only screen and (max-width: 280px){
+      margin-top: -1.3em;
+    }
   }
   section {
     position: relative;
     padding-bottom: 0;
+    margin-top: -2.7rem;
+    @media only screen and (max-width: 280px){
+      margin-top: -1.3em;
+    }
     margin-bottom: 2.2em;
     h4 {
       position: absolute;
