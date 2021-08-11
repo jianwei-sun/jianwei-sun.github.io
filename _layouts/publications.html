@@ -36,6 +36,9 @@ layout: archive
             {% if post.citation %}
               <button type="button" onclick="copyToClipboard(this, '{{ post.citation | escape }}')" class="btn cpy_btn">Copy Citation</button>
             {% endif %}
+            {% if post.video %}
+              <button type="button" onclick="window.open('{{ post.video }}','_blank')" class="btn">Video</button>
+            {% endif %}
         </li>
       {%- endunless -%}
     {%- endfor -%}

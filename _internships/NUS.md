@@ -6,6 +6,6 @@ year: 2014
 month: "May"
 duration: "3 months"
 details:
-    - "First detail with a lot of long information that takes up many sentences and possibly even a paragraph!"
-    - "Second detail"
+    - "Characterized dynamic responses of dielectric elastomers as soft actuators for use as artificial muscles (MATLAB)"
+    - "Developed a waveform generator for a 5kV high voltage power supply to actuate elastomers (LabVIEW)"
 ---

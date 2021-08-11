@@ -1,6 +1,6 @@
 ---
 permalink: /internships/
-title: "Internships"
+title: "Work Experience"
 collection: internships
 layout: internships
 classes: wide
