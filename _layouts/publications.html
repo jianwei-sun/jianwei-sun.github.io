@@ -28,16 +28,16 @@ layout: archive
               {{post.notice}}<br>
             {% endif %}
             {% if post.link %}
-              <button type="button" onclick="window.open('{{ post.link }}','_blank')" class="btn">Link</button>
+              <button type="button" onclick="window.open('{{ post.link }}','_blank')" class="btn btn--inverse">Link</button>
             {% endif %}
             {% if post.pdf %}
-              <button type="button" onclick="window.open('{{ post.pdf }}','_blank')" class="btn">PDF</button>
+              <button type="button" onclick="window.open('{{ post.pdf }}','_blank')" class="btn btn--inverse">PDF</button>
             {% endif %}
             {% if post.citation %}
-              <button type="button" onclick="copyToClipboard(this, '{{ post.citation | escape }}')" class="btn cpy_btn">Copy Citation</button>
+              <button type="button" onclick="copyToClipboard(this, '{{ post.citation | escape }}')" class="btn btn--inverse cpy_btn">Copy Citation</button>
             {% endif %}
             {% if post.video %}
-              <button type="button" onclick="window.open('{{ post.video }}','_blank')" class="btn">Video</button>
+              <button type="button" onclick="window.open('{{ post.video }}','_blank')" class="btn btn--inverse">Video</button>
             {% endif %}
         </li>
       {%- endunless -%}

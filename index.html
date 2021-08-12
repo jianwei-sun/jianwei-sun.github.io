@@ -1,4 +1,54 @@
 ---
 layout: home
 author_profile: true
+classes: wide
+title: "About Me"
 ---
+<p>I am a Ph.D. candidate at the <a href="http://bionics.seas.ucla.edu/" target="_blank">Bionics Lab</a> at the University of California, Los Angeles, under the supervision of <a href="http://bionics.seas.ucla.edu/people/rosen/jacob_rosen.html" target="_blank">Prof. Jacob Rosen</a>. My current research focuses on the control and estimation of an exoskeleton robot for physical human-robot interaction, in the context of automated physical rehabilitation. My research interests also include:</p>
+<ul>
+    <li>Admittance control for robotic systems</li>
+    <li>Pose estimation and sensor fusion</li>
+    <li>Control for nonlinear systems</li>
+</ul>
+
+<h2>Education</h2>
+<ul>
+    <li>Ph.D. in Systems and Control, 2024 (exp.)<br>University of California, Los Angeles</li>
+    <li>M.Sc. in Systems and Control, 2020<br>University of California, Los Angeles</li>
+    <li>M.Sc. in Electrical Engineering and Information Technology, 2019<br>ETH Zurich</li>
+    <li>B.Sc. in Engineering Science (Electrical and Computer Engineering), 2017<br>University of Toronto</li>
+</ul>
+
+<h2>Select Publications</h2>
+{% assign entries = site.publications %}
+{% assign entries = entries | sort: entries.date %}
+{% assign entries = entries | reverse %}
+<ul>
+    {%- for post in entries -%}
+      {%- unless post.hidden -%}
+        {%- if post.selected -%}
+            <li>
+                <b>{{post.title}}</b><br>
+                {{post.authors | replace: "Jianwei Sun", "<b>Jianwei Sun</b>"}}<br>
+                <i>{{post.venue}}</i><br>
+                {% if post.notice %}
+                {{post.notice}}<br>
+                {% endif %}
+                {% if post.link %}
+                <button type="button" onclick="window.open('{{ post.link }}','_blank')" class="btn btn--inverse">Link</button>
+                {% endif %}
+                {% if post.pdf %}
+                <button type="button" onclick="window.open('{{ post.pdf }}','_blank')" class="btn btn--inverse">PDF</button>
+                {% endif %}
+                {% if post.citation %}
+                <button type="button" onclick="copyToClipboard(this, '{{ post.citation | escape }}')" class="btn btn--inverse cpy_btn">Copy Citation</button>
+                {% endif %}
+                {% if post.video %}
+                <button type="button" onclick="window.open('{{ post.video }}','_blank')" class="btn btn--inverse">Video</button>
+                {% endif %}
+            </li>
+        {% endif %}
+      {%- endunless -%}
+    {%- endfor -%}
+  </ul>
+

@@ -58,7 +58,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true
 search                   : false
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -104,7 +104,7 @@ author:
   name             : "Jianwei Sun"
   avatar           : "/assets/images/bio-photo-square.jpg"
   bio              : "Ph.D. Candidate<br>University of California, Los Angeles"
-  location         : "Los Angeles, USA"
+  location         : #"Los Angeles, USA"
   links:
     - label: "Google Scholar"
       icon: "ai ai-fw ai-google-scholar"
@@ -115,6 +115,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:sunjianw1@ucla.edu"
+    - label: "CV"
+      icon: "fas fa-fw fa-paperclip"
+      url: "assets/files/Curriculum_Vitae.pdf"
     # - label: "ORCID"
     #   icon: "ai ai-fw ai-orcid"
     #   url: "https://orcid.org/0000-0002-6298-2930"
