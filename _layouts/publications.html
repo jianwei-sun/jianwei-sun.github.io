@@ -21,11 +21,11 @@ layout: archive
     {%- for post in entries -%}
       {%- unless post.hidden -%}
         <li>
-            <b>{{post.title}}</b><br>
-            {{post.authors | replace: "Jianwei Sun", "<b>Jianwei Sun</b>"}}<br>
-            <i>{{post.venue}}</i><br>
+            <div class="black">{{post.title}}</div>
+            <div class="smaller-font">{{post.authors | replace: "Jianwei Sun", "<b>Jianwei Sun</b>"}}</div>
+            <i class="lightgray smaller-font">{{post.venue}}</i><br>
             {% if post.notice %}
-              {{post.notice}}<br>
+              <div class="red smaller-font">{{post.notice}}</div>
             {% endif %}
             {% if post.link %}
               <button type="button" onclick="window.open('{{ post.link }}','_blank')" class="btn btn--inverse">Link</button>

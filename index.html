@@ -13,10 +13,22 @@ title: "About Me"
 
 <h2>Education</h2>
 <ul>
-    <li>Ph.D. in Systems and Control, 2024 (exp.)<br>University of California, Los Angeles</li>
-    <li>M.Sc. in Systems and Control, 2020<br>University of California, Los Angeles</li>
-    <li>M.Sc. in Electrical Engineering and Information Technology, 2019<br>ETH Zurich</li>
-    <li>B.Sc. in Engineering Science (Electrical and Computer Engineering), 2017<br>University of Toronto</li>
+    <li>
+        <div class="black">Ph.D. in Systems and Control, 2024 (exp.)</div>
+        <div class="lightgray smaller-font">University of California, Los Angeles</div>
+    </li>
+    <li>
+        <div class="black">M.Sc. in Systems and Control, 2020</div>
+        <div class="lightgray smaller-font">University of California, Los Angeles</div>
+    </li>
+    <li>
+        <div class="black">M.Sc. in Electrical Engineering and Information Technology, 2019</div>
+        <div class="lightgray smaller-font">ETH Zurich</div>
+    </li>
+    <li>
+        <div class="black">B.Sc. in Engineering Science (Electrical and Computer Engineering), 2017</div>
+        <div class="lightgray smaller-font">University of Toronto</div>
+    </li>
 </ul>
 
 <h2>Select Publications</h2>
@@ -28,23 +40,23 @@ title: "About Me"
       {%- unless post.hidden -%}
         {%- if post.selected -%}
             <li>
-                <b>{{post.title}}</b><br>
-                {{post.authors | replace: "Jianwei Sun", "<b>Jianwei Sun</b>"}}<br>
-                <i>{{post.venue}}</i><br>
+                <div class="black">{{post.title}}</div>
+                <div class="smaller-font">{{post.authors | replace: "Jianwei Sun", "<b>Jianwei Sun</b>"}}</div>
+                <i class="lightgray smaller-font">{{post.venue}}</i><br>
                 {% if post.notice %}
-                {{post.notice}}<br>
+                    <div class="red smaller-font">{{post.notice}}</div>
                 {% endif %}
                 {% if post.link %}
-                <button type="button" onclick="window.open('{{ post.link }}','_blank')" class="btn btn--inverse">Link</button>
+                    <button type="button" onclick="window.open('{{ post.link }}','_blank')" class="btn btn--inverse">Link</button>
                 {% endif %}
                 {% if post.pdf %}
-                <button type="button" onclick="window.open('{{ post.pdf }}','_blank')" class="btn btn--inverse">PDF</button>
+                    <button type="button" onclick="window.open('{{ post.pdf }}','_blank')" class="btn btn--inverse">PDF</button>
                 {% endif %}
                 {% if post.citation %}
-                <button type="button" onclick="copyToClipboard(this, '{{ post.citation | escape }}')" class="btn btn--inverse cpy_btn">Copy Citation</button>
+                    <button type="button" onclick="copyToClipboard(this, '{{ post.citation | escape }}')" class="btn btn--inverse cpy_btn">Copy Citation</button>
                 {% endif %}
                 {% if post.video %}
-                <button type="button" onclick="window.open('{{ post.video }}','_blank')" class="btn btn--inverse">Video</button>
+                    <button type="button" onclick="window.open('{{ post.video }}','_blank')" class="btn btn--inverse">Video</button>
                 {% endif %}
             </li>
         {% endif %}

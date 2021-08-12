@@ -24,10 +24,10 @@ layout: archive
           <section class="year">
             <h3>{{ post.year }}<br>{{ post.month }}</h3>
             <section>
-              <h4>{{ "<b>" | append: post.location | append: "</b>" | append: "<br>" | append: post.group | append: ", " | append: post.duration }}</h4>
+              <h4>{{ '<div class="black">' | append: post.location | append: '</div><div class="smaller-font">' | append: post.group | append: ", " | append: post.duration | append: '</div>'}}</h4>
               <ul>
                 {%- for detail in post.details -%}
-                  <li>{{ detail }}</li>
+                  <li class="smaller-font">{{ detail }}</li>
                 {%- endfor -%}
               </ul>
             </section>
