@@ -1,7 +1,7 @@
 ---
 index: 6
 group: "Computer Engineering and Networks"
-location: "ETH Zurich"
+location: "ETH Zürich"
 year: 2017
 month: "Oct"
 duration: "5 months"

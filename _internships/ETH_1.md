@@ -1,7 +1,7 @@
 ---
 index: 3
 group: "Institute for Dynamic Systems and Control"
-location: "ETH Zurich"
+location: "ETH Zürich"
 year: 2016
 month: "May"
 duration: "3 months"

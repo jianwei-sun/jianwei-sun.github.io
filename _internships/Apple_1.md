@@ -1,6 +1,6 @@
 ---
 index: 2
-group: "Wearable Systems"
+group: "Wearable Systems, Cupertino"
 location: "Apple"
 year: 2015
 month: "May"

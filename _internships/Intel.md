@@ -1,6 +1,6 @@
 ---
 index: 5
-group: "Programmable Solutions"
+group: "Programmable Solutions, San Jose"
 location: "Intel"
 year: 2017
 month: "Jun"

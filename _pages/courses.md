@@ -9,8 +9,8 @@ collection: courses
 * Differential Geometry (UCLA)
 * Probability and Statistics (UCLA)
 * Stochastic Processes (UCLA)
-* Stochastic Systems (ETH Zurich)
-* Discrete Event Systems (ETH Zurich)
+* Stochastic Systems (ETH Zürich)
+* Discrete Event Systems (ETH Zürich)
 * Convex Optimization (UofT)
 * Inference Algorithms and Machine Learning (UofT)
 
@@ -26,16 +26,16 @@ collection: courses
 * Nonlinear Dynamic Systems (UCLA)
 * Linear Optimal Control (UCLA)
 * Stochastic Estimation (UCLA)
-* Nonlinear Systems and Control (ETH Zurich)
-* Advanced Topics in Control (ETH Zurich)
-* Model Predictive Control (ETH Zurich)
-* Recursive Estimation (ETH Zurich)
-* Dynamic Programming and Optimal Control (ETH Zurich)
+* Nonlinear Systems and Control (ETH Zürich)
+* Advanced Topics in Control (ETH Zürich)
+* Model Predictive Control (ETH Zürich)
+* Recursive Estimation (ETH Zürich)
+* Dynamic Programming and Optimal Control (ETH Zürich)
 
 ## Electrical and Computer Engineering
 
 ### Digital
-* Hardware/Software Codesign (ETH Zurich)
+* Hardware/Software Codesign (ETH Zürich)
 * Computer Architecture (UofT)
 * Computer Organization (UofT)
 * Digital Systems Design (UofT)
@@ -43,7 +43,7 @@ collection: courses
 * Digital and Computer Systems (UofT)
 
 ### Analog
-* Analog Integrated Circuits (ETH Zurich)
+* Analog Integrated Circuits (ETH Zürich)
 * Communication Systems (UofT)
 * Signal Analysis and Communication (UofT)
 * Energy Systems (UofT)
