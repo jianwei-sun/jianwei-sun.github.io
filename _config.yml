@@ -117,7 +117,7 @@ author:
       url: "mailto:sunjianw1@ucla.edu"
     - label: "CV"
       icon: "fas fa-fw fa-paperclip"
-      url: "assets/files/Curriculum_Vitae.pdf"
+      url: "/assets/files/Curriculum_Vitae.pdf"
     # - label: "ORCID"
     #   icon: "ai ai-fw ai-orcid"
     #   url: "https://orcid.org/0000-0002-6298-2930"
