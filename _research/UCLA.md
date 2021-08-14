@@ -1,5 +1,5 @@
 ---
-index: 9
+index: 6
 group: "Bionics Lab"
 location: "University of California, Los Angeles"
 year: 2019

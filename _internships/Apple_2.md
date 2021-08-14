@@ -1,5 +1,5 @@
 ---
-index: 8
+index: 3
 group: "Wearable Systems, Cupertino"
 location: "Apple"
 year: 2018

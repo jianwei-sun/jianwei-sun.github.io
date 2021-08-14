@@ -1,5 +1,5 @@
 ---
-index: 3
+index: 2
 group: "Institute for Dynamic Systems and Control"
 location: "ETH Zürich"
 year: 2016

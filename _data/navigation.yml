@@ -1,12 +1,15 @@
 # main links
 main:
-  - title: "About"
+  - title: "Home"
     url: /
 
   - title: "Publications"
     url: /publications/
 
-  - title: "Work Experience"
+  - title: "Research"
+    url: /research/
+
+  - title: "Internships"
     url: /internships/
 
   - title: "Courses"
@@ -14,6 +17,3 @@ main:
     
   - title: "Teaching"
     url: /teaching/
-
-  - title: "CV"
-    url: /cv/

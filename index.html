@@ -4,12 +4,17 @@ author_profile: true
 classes: wide
 title: "About Me"
 ---
-<p>I am a Ph.D. candidate at the <a href="http://bionics.seas.ucla.edu/" target="_blank">Bionics Lab</a> at the University of California, Los Angeles, under the supervision of <a href="http://bionics.seas.ucla.edu/people/rosen/jacob_rosen.html" target="_blank">Prof. Jacob Rosen</a>. My current research focuses on the control and estimation of an exoskeleton robot for physical human-robot interaction, in the context of automated physical rehabilitation. My research interests also include:</p>
+<p>
+    I am currently a Ph.D. candidate at the <a href="http://bionics.seas.ucla.edu/" target="_blank">Bionics Lab</a> at the University of California, Los Angeles, under the supervision of <a href="http://bionics.seas.ucla.edu/people/rosen/jacob_rosen.html" target="_blank">Prof. Jacob Rosen</a>. My research focuses on the control and estimation of an exoskeleton robot for physical human-robot interaction, in the context of automated physical rehabilitation, and also includes:
+</p>
 <ul>
     <li>Generating virtual dynamics through admittance control for robotic systems</li>
     <li>Pose estimation and sensor fusion for physical human-robot interaction</li>
     <li>Feedback linearization-based control of nonlinear systems</li>
 </ul>
+<p>
+    My industry experience consists of two electrical engineering internships at Apple (Wearable Systems team), and one software engineering internship at Intel (Programmable Solutions group). My internship skillset included circuit design, hardware validation, and software development.
+</p>
 
 <h2>Education</h2>
 <ul>
@@ -44,7 +49,7 @@ title: "About Me"
                 <div class="smaller-font">{{post.authors | replace: "Jianwei Sun", "<b>Jianwei Sun</b>"}}</div>
                 <i class="lightgray smaller-font">{{post.venue}}</i><br>
                 {% if post.notice %}
-                    <div class="red smaller-font">{{post.notice}}</div>
+                    <div class="black smaller-font">{{post.notice}}</div>
                 {% endif %}
                 {% if post.link %}
                     <button type="button" onclick="window.open('{{ post.link }}','_blank')" class="btn btn--inverse">Link</button>

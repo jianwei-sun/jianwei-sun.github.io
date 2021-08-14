@@ -1,5 +1,5 @@
 ---
-index: 6
+index: 4
 group: "Computer Engineering and Networks"
 location: "ETH Zürich"
 year: 2017
