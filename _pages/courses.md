@@ -13,6 +13,7 @@ collection: courses
 * Discrete Event Systems (ETH Zürich)
 * Convex Optimization (UofT)
 * Inference Algorithms and Machine Learning (UofT)
+* Neural Networks and Deep Learning (UCLA)
 
 ## Systems and Control
 
