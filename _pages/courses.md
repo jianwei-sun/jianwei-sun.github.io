@@ -27,6 +27,7 @@ collection: courses
 * Nonlinear Dynamic Systems (UCLA)
 * Linear Optimal Control (UCLA)
 * Stochastic Estimation (UCLA)
+* Optimal Control (UCLA)
 * Nonlinear Systems and Control (ETH Zürich)
 * Advanced Topics in Control (ETH Zürich)
 * Model Predictive Control (ETH Zürich)
