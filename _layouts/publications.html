@@ -39,6 +39,9 @@ layout: archive
             {% if post.video %}
               <button type="button" onclick="window.open('{{ post.video }}','_blank')" class="btn btn--inverse">Video</button>
             {% endif %}
+            {% if post.presentation %}
+              <button type="button" onclick="window.open('{{ post.presentation }}','_blank')" class="btn btn--inverse">Presentation</button>
+            {% endif %}
         </li>
       {%- endunless -%}
     {%- endfor -%}
