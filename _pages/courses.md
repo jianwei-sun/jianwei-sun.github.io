@@ -24,6 +24,7 @@ collection: courses
 * Linear Systems and Control (UofT)
 
 ### Advanced
+* Geometric Nonlinear Control (UCLA)
 * Nonlinear Dynamic Systems (UCLA)
 * Linear Optimal Control (UCLA)
 * Stochastic Estimation (UCLA)
