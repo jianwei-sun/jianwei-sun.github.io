@@ -3,50 +3,41 @@ permalink: /courses/
 title: "Courses"
 collection: courses
 ---
+## Systems and Control
+* Geometric Nonlinear Control (UCLA)
+* Nonlinear Dynamic Systems (UCLA)
+* Stochastic Estimation (UCLA)
+* Optimal Control (UCLA)
+* Linear Dynamic Systems (UCLA)
+* Nonlinear Systems and Control (ETH Zürich)
+* Advanced Topics in Control (ETH Zürich)
+* Recursive Estimation (ETH Zürich)
+* Model Predictive Control (ETH Zürich)
+* Dynamic Programming and Optimal Control (ETH Zürich)
+* Systems Control (UofT)
+* Linear Systems and Control (UofT)
+* Dynamics (UofT)
+
 ## Mathematics
-* Topology (UCLA)
-* Differential Topology (UCLA)
 * Differential Geometry (UCLA)
+* Differential Topology (UCLA)
+* Topology (UCLA)
 * Probability and Statistics (UCLA)
 * Stochastic Processes (UCLA)
+* Neural Networks and Deep Learning (UCLA)
 * Stochastic Systems (ETH Zürich)
 * Discrete Event Systems (ETH Zürich)
 * Convex Optimization (UofT)
 * Inference Algorithms and Machine Learning (UofT)
-* Neural Networks and Deep Learning (UCLA)
-
-## Systems and Control
-
-### Fundamentals
-* Linear Dynamic Systems (UCLA)
-* Systems Control (UofT)
-* Dynamics (UofT)
-* Linear Systems and Control (UofT)
-
-### Advanced
-* Geometric Nonlinear Control (UCLA)
-* Nonlinear Dynamic Systems (UCLA)
-* Linear Optimal Control (UCLA)
-* Stochastic Estimation (UCLA)
-* Optimal Control (UCLA)
-* Nonlinear Systems and Control (ETH Zürich)
-* Advanced Topics in Control (ETH Zürich)
-* Model Predictive Control (ETH Zürich)
-* Recursive Estimation (ETH Zürich)
-* Dynamic Programming and Optimal Control (ETH Zürich)
 
 ## Electrical and Computer Engineering
-
-### Digital
 * Hardware/Software Codesign (ETH Zürich)
+* Analog Integrated Circuits (ETH Zürich)
 * Computer Architecture (UofT)
 * Computer Organization (UofT)
 * Digital Systems Design (UofT)
 * Digital Signal Processing (UofT)
 * Digital and Computer Systems (UofT)
-
-### Analog
-* Analog Integrated Circuits (ETH Zürich)
 * Communication Systems (UofT)
 * Signal Analysis and Communication (UofT)
 * Energy Systems (UofT)
