@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Jianwei Sun"
   avatar           : "/assets/images/bio-photo-square.jpg"
-  bio              : "Ph.D. Candidate<br>University of California, Los Angeles"
+  bio              : "Ph.D. in Robotics & Control<br>University of California, Los Angeles"
   location         : #"Los Angeles, USA"
   links:
     - label: "Google Scholar"
