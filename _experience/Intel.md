@@ -1,6 +1,6 @@
 ---
 index: 2
-group: "Programmable Solutions, San Jose"
+group: "Programmable Solutions Intern, San Jose"
 location: "Intel"
 year: 2017
 month: "Jun"

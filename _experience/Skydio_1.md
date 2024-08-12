@@ -1,6 +1,6 @@
 ---
 index: 4
-group: "Autonomy, San Mateo"
+group: "Autonomy Intern, San Mateo"
 location: "Skydio"
 year: 2022
 month: "Jun"

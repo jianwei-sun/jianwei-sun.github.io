@@ -103,8 +103,8 @@ analytics:
 author:
   name             : "Jianwei Sun"
   avatar           : "/assets/images/bio-photo-square.jpg"
-  bio              : "Ph.D. in Robotics & Control<br>University of California, Los Angeles"
-  location         : #"Los Angeles, USA"
+  bio              : "Autonomy Engineer at Skydio<br>Ph.D. in Robotics & Control (UCLA)"
+  location         : "San Mateo, CA, USA"
   links:
     - label: "Google Scholar"
       icon: "ai ai-fw ai-google-scholar"
@@ -206,16 +206,13 @@ kramdown:
 
 # Collections
 collections:
+  experience:
+    output: true
+    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   research:
-    output: true
-    permalink: /:collection/:path/
-  internships:
-    output: true
-    permalink: /:collection/:path/
-  courses:
     output: true
     permalink: /:collection/:path/
   teaching:
@@ -310,6 +307,13 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _experience
+  - scope:
+      path: ""
+      type: experience
+    values:
+      layout: single
+      author_profile: true
   # _publications
   - scope:
       path: ""
@@ -321,20 +325,6 @@ defaults:
   - scope:
       path: ""
       type: research
-    values:
-      layout: single
-      author_profile: true
-  # _internships
-  - scope:
-      path: ""
-      type: internships
-    values:
-      layout: single
-      author_profile: true
-  # _courses
-  - scope:
-      path: ""
-      type: courses
     values:
       layout: single
       author_profile: true

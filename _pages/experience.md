@@ -1,7 +1,7 @@
 ---
-permalink: /research/
-title: "Research Experience"
-collection: research
+permalink: /experience/
+title: "Work Experience"
+collection: experience
 layout: experience
 classes: wide
 sort_by: index

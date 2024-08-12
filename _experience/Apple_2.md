@@ -1,6 +1,6 @@
 ---
 index: 3
-group: "Wearable Systems, Cupertino"
+group: "Wearable Systems Intern, Cupertino"
 location: "Apple"
 year: 2018
 month: "Sep"
