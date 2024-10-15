@@ -104,7 +104,7 @@ author:
   name             : "Jianwei Sun"
   avatar           : "/assets/images/bio-photo-square.jpg"
   bio              : "Autonomy Engineer at Skydio<br>Ph.D. in Robotics & Control (UCLA)"
-  location         : "San Mateo, CA, USA"
+  # location         : "San Mateo, CA, USA"
   links:
     - label: "Google Scholar"
       icon: "ai ai-fw ai-google-scholar"
