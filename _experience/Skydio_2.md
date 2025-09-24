@@ -6,6 +6,7 @@ year: 2024
 month: "Jun"
 duration: "Current"
 details:
-    - "Implementing improvements to quadrotor planner and controller (C++)"
-    - "Developing unit tests for verifying end-to-end behavior (Python)"
+    - "Implemented path planner and trajectory-following controller for <a href=\"https://www.skydio.com/f10\" target=\"_blank\">Skydio F10</a>"
+    - "Developed path planning and optimization-based control algorithms (C++)"
+    - "Created unit tests for verifying end-to-end behavior (Python)"
 ---
